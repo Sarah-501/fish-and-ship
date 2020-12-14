@@ -1,0 +1,153 @@
+/*_______ General __________*/
+body{
+    background-image: url(../img/fond.png);
+    font-size: 1em;
+    color: #444a54;
+}
+/*_________________ HEADER ________________*/
+header{
+    background-color: #34b1b2;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #2fa0a4;
+    margin-top: 5%;
+    
+}
+header img{
+    display: block;
+    margin: auto;
+}
+nav{
+    text-align: center;
+    padding-bottom: 10px;
+    color:white;
+}
+nav a{
+    font-size: large;
+    padding-right: 20px;
+    color:white;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+/*_______ _________MAIN ___________________*/
+main{
+    min-width: 800px;
+    max-width: 1100px;
+    margin: auto;
+    font-weight: 500;
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+main a{
+    color:white;
+    float: right;
+    background-color: #2b9aa0;
+    padding: 10px 27px;
+    text-align: center;
+    display: block;
+}
+
+nav a,h1,h2,h3,h4{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 300;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 3.5em;
+}
+#h2Span{
+    color: #2b9aa0;
+}
+h3{
+   font-size: 1.8em; 
+   text-align: center;
+}
+h4{
+    font-size: 1.4em;
+}
+h5,#h4Span{
+   color: #a3dbdc;
+}
+
+main img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 5%;
+}
+#iColor{
+    color:#35b1b2 ;
+    font-size: 70%;
+}
+#section0{
+    margin: auto;
+    text-align: center;
+    width:70%;
+    padding-bottom: 5%;
+
+}
+#section{
+    display: inline-block;
+    width: 70%;
+    background-color: #b6dedc;
+    padding-bottom: 7%;
+    box-sizing: border-box;
+  
+    
+}
+
+#article1,#article{
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5%;
+    margin-top: -10%;
+}
+
+aside{
+    border-color: ;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    margin-left:2%;
+    background-color: #34b1b2;
+    vertical-align: top;
+    border: solid #2fa0a4;
+    padding-left:3% ;
+    padding-right: 3%;
+    color: #cfeced ;
+    font-weight: 400;
+}
+aside p{
+    font-size: x-small;
+}
+
+aside img{
+    float:right;
+    margin-top:-30%;
+    margin-right: -50%;
+}
+/*_________________ FOOTER ________________*/
+
+footer{
+    margin-top: 5%;
+}
+footer img{
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+footer p{
+    text-align: center;
+    margin-top: -10px;
+}
